@@ -1,5 +1,5 @@
 
 SELECT 
-    hour(supplier_id) AS 'submitted_hour'
+    hour(submitted_date) AS 'submitted_hour'
 FROM
     northwind.purchase_orders;

@@ -3,4 +3,4 @@ SELECT
     notes
 FROM
     northwind.purchase_orders
-where notes Like '%3';
+where notes Like '%3%';
